@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*made the header a flex parent and manipulated the margin-left on the header nav to get the nav elements to the right*/
 header {
     display:flex;
     padding: 20px;
@@ -15,7 +15,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*changed to the appropriate selectors recognizing the semantic html elements */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -86,7 +86,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*consolidated repeating similar code using commas*/
+/*consolidated repeating code being applied to classes using commas*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
